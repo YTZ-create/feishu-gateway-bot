@@ -3,7 +3,7 @@ const path = require('path');
 
 const svc = new Service({
     name: 'Feishu Gateway Bot',
-    description: '飞书网关助手 - 通过飞书机器人远程控制网关重启',
+    description: '飞书网关助手 - 通过飞书机器人控制 OpenClaw 网关重启',
     script: path.join(__dirname, 'index.js'),
     workingDirectory: __dirname,
     nodeOptions: ['--harmony', '--max_old_space_size=256'],
